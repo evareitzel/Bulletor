@@ -4,7 +4,6 @@ import {
   Route
 } from 'react-router-dom'
 
-
 import NavBar from './NavBar'
 import ListContainer from './ListContainer'
 import ListForm from './ListForm'
@@ -29,9 +28,6 @@ function App() {
         />
       </Routes>
     </div>
-    //   <Header />
-    //   <NavBar />
-
   );
 }
 

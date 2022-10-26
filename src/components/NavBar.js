@@ -11,7 +11,7 @@ function NavBar() {
             <a href="/add-list" >Add List</a>
           </li>
           <li>
-            <a href="/resources" >Resources</a>
+            <a href="/resources">Resources</a>
           </li>
         </ul>
       </nav>

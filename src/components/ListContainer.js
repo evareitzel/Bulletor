@@ -1,6 +1,6 @@
 function ListContainer(){
   
-  const renderLists = 0 // map lists here
+  const renderLists = 0 // map lists
   
   return(
 

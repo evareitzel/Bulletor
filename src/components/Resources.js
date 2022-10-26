@@ -1,4 +1,4 @@
-function Home(){
+function Resources(){
   return(
     <>
       <h1>Resources</h1>
@@ -9,11 +9,9 @@ function Home(){
         <li>× Completed</li>
         <li>♥️ Idea</li>
       </ul>
-      <p>
-        <a href='https://bulletjournal.com/' target="_blank">Official site</a>
-      </p>
+      <a href='https://bulletjournal.com/' target="_blank">Official site</a>
     </>
   )
 }
 
-export default Home
+export default Resources
