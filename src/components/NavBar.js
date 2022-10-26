@@ -1,8 +1,8 @@
 function NavBar() {
   return (
     <div>
-      <h1>Bulleting</h1>
       <nav>
+      <h1>Bulleting</h1>
         <ul>
           <li>
             <a href="/" >Bullets</a>
