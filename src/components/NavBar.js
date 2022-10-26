@@ -2,7 +2,7 @@ function NavBar() {
   return (
     <div>
       <nav>
-      <h1>Bulleting</h1>
+      <h1>⚡️Bulletary</h1>
         <ul>
           <li>
             <a href="/" >Bullets</a>
