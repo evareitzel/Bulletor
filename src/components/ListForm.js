@@ -1,17 +1,13 @@
-function ListForm(){
+function ListForm() {
 
-  // implement form
-
-  // BULLET JOURNAL KEY SYMBOLS
-    // • To Do
-    //   o Events
-    // ** Important
-    // <3 Ideas
-
-  return(
+  return (
     <>
-      <p>ListForm! Add new task: </p>
+      <h1>ListForm</h1>
+      <p>Add new tasks: </p>
       <form>
+        <input></input>
+        <input></input>
+        <input></input>
         <input></input>
       </form>
     </>

@@ -1,30 +1,32 @@
 import React from 'react'
 import {
-  // BrowserRouter as Router, 
   Routes, // instead of "Switch"  
-  Route, 
-  // Link
+  Route
 } from 'react-router-dom'
-import Header from './Header'
+
+
 import NavBar from './NavBar'
 import ListContainer from './ListContainer'
 import ListForm from './ListForm'
-
-import Home from "./Home"
+import Resources from "./Resources"
 
 function App() {
   return (
     <div>
-      <p>Hi from App!</p>
       <NavBar />
       <Routes>
-        <Route exact path='/' element={<Home />}  />
-          {/* <Home /> */}
-          {/* <ListContainer /> */}
-        {/* </Route> */}
-        {/* <Route path="/add-list"> */}
-          {/* <ListForm /> */}
-        {/* </Route> */}
+        <Route 
+          path='/' 
+          element={<ListContainer />} 
+        />
+        <Route 
+          path='add-list' 
+          element={<ListForm/>}
+        />
+        <Route 
+          path='resources' 
+          element={<Resources/>}
+        />
       </Routes>
     </div>
     //   <Header />

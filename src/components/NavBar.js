@@ -1,17 +1,17 @@
 function NavBar() {
   return (
     <div>
-      <p>Hi from NavBar!</p>
+      <h1>Bulleting</h1>
       <nav>
         <ul>
           <li>
-            <a href="/" >Home</a>
+            <a href="/" >Bullets</a>
           </li>
           <li>
             <a href="/add-list" >Add List</a>
           </li>
           <li>
-            <a href="/about" >About</a>
+            <a href="/resources" >Resources</a>
           </li>
         </ul>
       </nav>
