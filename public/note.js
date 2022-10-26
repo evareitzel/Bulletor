@@ -2,6 +2,9 @@
   // npx create-react-app demo-app
 
 
+// pkg.lock.json & package.json idea: 
+  // "react-router-dom": "^6.4.2", // ^5.3.4
+
 // UI idea(s)
   // https://mui.com/
   // https://mui.com/material-ui/customization/dark-mode/#main-content
