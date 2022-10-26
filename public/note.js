@@ -1,9 +1,38 @@
 // add React Router
+  // npx create-react-app demo-app
 
 
 // UI idea(s)
   // https://mui.com/
   // https://mui.com/material-ui/customization/dark-mode/#main-content
+
+    // import * as React from 'react';
+    // import useMediaQuery from '@mui/material/useMediaQuery';
+    // import { createTheme, ThemeProvider } from '@mui/material/styles';
+    // import CssBaseline from '@mui/material/CssBaseline';
+
+    // function App() {
+    //   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+
+    //   const theme = React.useMemo(
+    //     () =>
+    //       createTheme({
+    //         palette: {
+    //           mode: prefersDarkMode ? 'dark' : 'light',
+    //         },
+    //       }),
+    //     [prefersDarkMode],
+    //   );
+
+    //   return (
+    //     0
+    //     // <ThemeProvider theme={theme}>
+    //     //   <CssBaseline />
+    //     //   <Routes />
+    //     // </ThemeProvider>
+    //   );
+    // }
+
 
 // App.js boiler code
   // import logo from './logo.svg';
