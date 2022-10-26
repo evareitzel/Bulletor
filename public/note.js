@@ -93,3 +93,128 @@
     // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
     // reportWebVitals();
   
+
+
+    //////////////////////////////
+    // db.json
+    [
+      {
+        id: 1,
+        title: Learning,
+        todo: React UI,// action,
+        inProgress: FlatIron Bootcamp,
+        completed: LearnEnough Rails Tutorial,
+        idea: Digital Ocean,
+      },
+      {
+        id: 2,
+        title: Grocery List,
+        todo: apples,
+        todo: bananas,
+        completed: milk,
+        idea: cake, 
+      },
+      {
+        id: 3,
+        title: Reading List,
+        todo: Eloquent Ruby,
+        todo: Content Design,
+        inProgress: Eloquent JavaScript,
+        completed: Web Technology - Theory and Practice,
+        idea: Book Club!,
+      },
+      {
+        id: 4,
+        title: Wellness,
+        todo: fitness regime,
+        inProgress: practice meditation,
+        idea: sleep schedule,
+      },
+      {
+        id: 5,
+        title: Chores, 
+        todo: tidy kitchen, 
+        todo: mow lawn, 
+        todo: laundry, 
+        todo: sweep,
+        todo: sort mail,
+      },
+      {
+        id: 6,
+        title: Finances,
+        todo: electric - enroll in autoPay,
+        todo: pay car tax,
+        idea: invest in stock market,
+        completed: child care,
+      }
+    ]
+
+    ////////// boilerplate db.json
+    // {
+    //   "posts": [
+    //     {
+    //       "id": 1,
+    //       "title": "json-server",
+    //       "author": "typicode"
+    //     }
+    //   ],
+    //   "comments": [
+    //     {
+    //       "id": 1,
+    //       "body": "some comment",
+    //       "postId": 1
+    //     }
+    //   ],
+    //   "profile": {
+    //     "name": "typicode"
+    //   }
+    // }
+
+
+    ////////// Revised db.json
+  //   {
+  //     "lists": [
+  //      {
+  //        "id": 1,
+  //        "title": "Learning",
+  //        "todo": "React UI",
+  //        "inProgress": "FlatIron Bootcamp",
+  //        "completed": "LearnEnough Rails Tutorial",
+  //        "idea": "Digital Ocean"
+  //      },
+  //      {
+  //        "id": 2,
+  //        "title": "Grocery List",
+  //        "todo": "apples, bananas",
+  //        "completed": "milk",
+  //        "idea": "cake" 
+  //      },
+  //      {
+  //        "id": 3,
+  //        "title": "Reading List",
+  //        "todo": "Eloquent Ruby, Content Design",
+  //        "inProgress": "Eloquent JavaScript",
+  //        "completed": "Web Technology - Theory and Practice",
+  //        "idea": "Book Club!"
+  //      },
+  //      {
+  //        "id": 4,
+  //        "title": "Wellness",
+  //        "todo": "fitness regime",
+  //        "inProgress": "practice meditation",
+  //        "idea": "sleep schedule"
+  //      },
+  //      {
+  //        "id": 5,
+  //        "title": "Chores", 
+  //        "todo": "tidy kitchen, , laundry, sweep, sort mail" 
+  //      },
+  //      {
+  //        "id": 6,
+  //        "title": "Finances",
+  //        "todo": "electric - enroll in autoPay, pay car tax",
+  //        "idea": "invest in stock market",
+  //        "completed": "child care"
+  //      }
+  //    ]
+  //  }

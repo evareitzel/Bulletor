@@ -3,3 +3,7 @@ https://todoist.com/templates - API inspo
 // https://developer.todoist.com/rest/v2/?python#get-a-user-39-s-projects
 
 // https://github.com/microsoftarchive/api
+
+    "server": "json-server --watch db.json -p 3001",
+$ npm run server
+ http://localhost:3001/lists
