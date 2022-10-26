@@ -14,6 +14,7 @@ function NavBar() {
             <a href="/resources">Resources</a>
           </li>
         </ul>
+        <button>Dark Mode 🌙</button> {/* ☀️ Light Mode */}
       </nav>
     </div>
   )
