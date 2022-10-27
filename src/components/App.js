@@ -15,21 +15,21 @@ import Resources from "./Resources"
 function App() {
   const [lists, setLists] = useState([])
 
-  // console.log(bulletLists)
+  useEffect(()=> {
+    fetch('http://localhost:3001/lists')
+    .then(r => r.json())
+    .then(data  => {
+      setLists(data)
+    })
+  }, [])
 
-  useEffect(
-    ()=> {
-      fetch('http://localhost:3001/lists')
-      .then(r => r.json())
-      .then(lists  => console.log(lists))
-    }, [])
   return (
     <div>
       <NavBar />
       <Routes>
         <Route 
           path='/' 
-          element={<ListContainer />} 
+          element={<ListContainer lists={lists}/>} 
         />
         <Route 
           path='add-list' 

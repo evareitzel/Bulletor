@@ -4,6 +4,7 @@ https://todoist.com/templates - API inspo
 
 // https://github.com/microsoftarchive/api
 
+    add to package.json:
     "server": "json-server --watch db.json -p 3001",
 $ npm run server
  http://localhost:3001/lists

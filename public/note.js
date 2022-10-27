@@ -218,3 +218,120 @@
   //      }
   //    ]
   //  }
+
+  ///////////////////////////////////////////////////
+  {
+    "lists": [
+     // {
+     //   "id": 1,
+     //   "title": "Learning",
+     //   "item": "React UI",
+     //   "item": "FlatIron Bootcamp",
+     //   "item": "LearnEnough Rails Tutorial",
+     //   "item": "Digital Ocean"
+     // },
+     // {
+     //   "id": 2,
+     //   "title": "Grocery List",
+     //   "item": "apples, bananas",
+     //   "item": "milk",
+     //   "item": "cake" 
+     // },
+     // {
+     //   "id": 3,
+     //   "title": "Reading List",
+     //   "item": "Eloquent Ruby, Content Design",
+     //   "item": "Eloquent JavaScript",
+     //   "item": "Web Technology - Theory and Practice",
+     //   "item": "Book Club!"
+     // },
+     // {
+     //   "id": 4,
+     //   "title": "Wellness",
+     //   "item": "fitness regime",
+     //   "item": "practice meditation",
+     //   "item": "sleep schedule"
+     // },
+     // {
+     //   "id": 5,
+     //   "title": "Chores", 
+     //   "item": "tidy kitchen", 
+     //   "item": "laundry", 
+     //   "item": "sweep", 
+     //   "item": "sort mail" 
+     // },
+     {
+       "id": 6,
+       "title": "Finances",
+       "items": {
+         "item": "electric - enroll in autoPay", 
+         "item": "pay car tax",
+         "item": "invest in stock market",
+         "item": "child care"
+       }
+     }
+   ]
+ }
+ // "item": "electric - enroll in autoPay", 
+ // "item": "pay car tax",
+ // "item": "invest in stock market",
+ // "item": "child care"
+ 
+ // "electric - enroll in autoPay", 
+ // "pay car tax",
+ // "invest in stock market",
+ // "child care"
+ 
+
+ ///////////////////////////////////////////////
+ [
+  {
+    id: 1,
+    title: Learning,
+    todo: React UI,// action,
+    inProgress: FlatIron Bootcamp,
+    completed: LearnEnough Rails Tutorial,
+    idea: Digital Ocean,
+  },
+  {
+    id: 2,
+    title: Grocery List,
+    todo: apples,
+    todo: bananas,
+    completed: milk,
+    idea: cake, 
+  },
+  {
+    id: 3,
+    title: Reading List,
+    todo: Eloquent Ruby,
+    todo: Content Design,
+    inProgress: Eloquent JavaScript,
+    completed: Web Technology - Theory and Practice,
+    idea: Book Club!,
+  },
+  {
+    id: 4,
+    title: Wellness,
+    todo: fitness regime,
+    inProgress: practice meditation,
+    idea: sleep schedule,
+  },
+  {
+    id: 5,
+    title: Chores, 
+    todo: tidy kitchen, 
+    todo: mow lawn, 
+    todo: laundry, 
+    todo: sweep,
+    todo: sort mail,
+  },
+  {
+    id: 6,
+    title: Finances,
+    todo: electric - enroll in autoPay,
+    todo: pay car tax,
+    idea: invest in stock market,
+    completed: child care,
+  }
+]
