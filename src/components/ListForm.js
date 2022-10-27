@@ -31,6 +31,11 @@ function ListForm() {
     setTask4(e.target.value)
   }
 
+  function handleSubmit(e){
+    // e.target.preventDefault()
+    console.log('Submitted!')
+  }
+
   console.log('Title: ', title)
   console.log('Task 1: ', task1)
   console.log('Task 2: ', task2)
@@ -46,32 +51,52 @@ function ListForm() {
           <label>Title </label>
           <input 
             onChange={handleTitleChange} 
-            placeholder="Title of your List"
+            // placeholder="Title of your List" // FIX
             // type="text"
             // value="title"
           ></input>
         </div>
         <div>
           <label>1 </label>
-          <input onChange={handleTask1Change}>
+          <input 
+            onChange={handleTask1Change}
+            // placeholder="Task 1" // FIX
+            // type="text"
+            // value="task1"
+          >
           </input>
         </div>
         <div>  
           <label>2 </label>
-          <input onChange={handleTask2Change}>
+          <input 
+            onChange={handleTask2Change}
+            // placeholder="Task 2" // FIX
+            // type="text"
+            // value="task2"
+          >
           </input>
         </div>
         <div>
           <label>3 </label>
-          <input onChange={handleTask3Change}>
+          <input 
+            onChange={handleTask3Change}
+            // placeholder="Task 3" // FIX
+            // type="text"
+            // value="task3"
+          >
           </input>
         </div>
         <div>
           <label>4 </label>
-          <input onChange={handleTask4Change}>
+          <input 
+            onChange={handleTask4Change}
+            // placeholder="Task 4" // FIX
+            // type="text"
+            // value="task4"  
+          >
           </input>
         </div>
-        <button type="submit">Submit</button>
+        <button onSubmit={handleSubmit} type="submit">Submit</button>
       </form>
     </>
   )
