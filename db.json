@@ -1,15 +1,105 @@
 {
-   "lists": [
-
-    
+  "lists": [
+    {
+      "id": 1,
+      "title": "Learning",
+      "items": [
+        {
+          "item": "React UI"
+        },
+        {
+          "item": "FlatIron Bootcamp"
+        },
+        {
+          "item": "LearnEnough Rails Tutorial"
+        },
+        {
+          "item": "Digital Ocean"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Grocery List",
+      "items": [
+        {
+          "item": "apples, bananas"
+        },
+        {
+          "item": "milk"
+        },
+        {
+          "item": "cake"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Reading List",
+      "items": [
+        {
+          "item": "Eloquent Ruby, Content Design"
+        },
+        {
+          "item": "Eloquent JavaScript"
+        },
+        {
+          "item": "Web Technology - Theory and Practice"
+        },
+        {
+          "item": "Book Club!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Wellness",
+      "items": [
+        {
+          "item": "fitness regime"
+        },
+        {
+          "item": "practice meditation"
+        },
+        {
+          "item": "sleep schedule"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Chores",
+      "items": [
+        {
+          "item": "tidy kitchen"
+        },
+        {
+          "item": "laundry"
+        },
+        {
+          "item": "sweep"
+        },
+        {
+          "item": "sort mail"
+        }
+      ]
+    },
     {
       "id": 6,
       "title": "Finances",
       "items": [
-        {"item": "electric - enroll in autoPay"}, 
-        {"item": "pay car tax"},
-        {"item": "invest in stock market"},
-        {"item": "child care"}
+        {
+          "item": "electric - enroll in autoPay"
+        },
+        {
+          "item": "pay car tax"
+        },
+        {
+          "item": "invest in stock market"
+        },
+        {
+          "item": "child care"
+        }
       ]
     }
   ]
