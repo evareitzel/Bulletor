@@ -3,9 +3,7 @@ import {
   Routes, // instead of "Switch"  
   Route
 } from 'react-router-dom'
-
-// import json.db 
-// import bulletLists from "../db.json"
+import '../stylesheets/App.css'
 
 import NavBar from './NavBar'
 import ListContainer from './ListContainer'
@@ -24,7 +22,7 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className="app">
       <NavBar />
       <Routes>
         <Route 

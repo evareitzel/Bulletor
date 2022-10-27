@@ -1,0 +1,6 @@
+.app {
+  width: 375px;  
+  /* make full bg */
+  background-color: #222;
+  color: #fff
+}
