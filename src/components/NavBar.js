@@ -1,7 +1,9 @@
+import '../stylesheets/NavBar.css'
+
 function NavBar() {
   return (
     <div>
-      <nav>
+      <nav className="nav">
       <h1>⚡️Bulletary</h1>
         <ul>
           <li>

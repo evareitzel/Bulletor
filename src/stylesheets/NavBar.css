@@ -1,0 +1,16 @@
+/* @use "@material/icon-button" */
+.nav {
+  /* text-decoration: none; */
+  font-weight: 400;
+  font-family: Georgia, Times New Roman, serif;
+  letter-spacing: 2px;
+  padding: 20px;
+  /* position: float; */
+  text-transform: uppercase;
+  /* display: block; */
+  /* color: #fff; */
+  list-style-type: none
+
+}
+
+/* li a {display: block;} */

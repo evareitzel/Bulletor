@@ -5,6 +5,8 @@ import {
 } from 'react-router-dom'
 import '../stylesheets/App.css'
 
+// import AppBar from '@material-ui/core/AppBar'
+
 import NavBar from './NavBar'
 import ListContainer from './ListContainer'
 import ListForm from './ListForm'
@@ -22,22 +24,24 @@ function App() {
   }, [])
 
   return (
-    <div className="app">
-      <NavBar />
-      <Routes>
-        <Route 
-          path='/' 
-          element={<ListContainer lists={lists}/>} 
-        />
-        <Route 
-          path='add-list' 
-          element={<ListForm/>}
-        />
-        <Route 
-          path='resources' 
-          element={<Resources/>}
-        />
-      </Routes>
+    <div className="background">
+      <div className="app">
+        <NavBar />
+        <Routes>
+          <Route 
+            path='/' 
+            element={<ListContainer lists={lists}/>} 
+          />
+          <Route 
+            path='add-list' 
+            element={<ListForm/>}
+          />
+          <Route 
+            path='resources' 
+            element={<Resources/>}
+          />
+        </Routes>
+      </div> 
     </div>
   );
 }
