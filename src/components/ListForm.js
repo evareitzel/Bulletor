@@ -38,6 +38,14 @@ function ListForm() {
   function handleSubmit(e){
     e.preventDefault()
     console.log('Submitted!')
+    const listData = {
+      title: title,
+      item1: item1,
+      item2: item2,
+      item3: item3,
+      item4: item4
+    }
+    console.log(listData)
   }
 
   console.log('Title: ', title)
@@ -56,7 +64,7 @@ function ListForm() {
             onChange={handleTitleChange} 
             // placeholder="Title of your List" // FIX
             // type="text"
-            // value="title"
+            value="title"
           />
           </label>
           <label>1 
@@ -64,7 +72,7 @@ function ListForm() {
             onChange={handleTask1Change}
             // placeholder="Task 1" // FIX
             // type="text"
-            // value="task1"
+            value="task1"
           />
           </label>
           <label>2 
@@ -72,7 +80,7 @@ function ListForm() {
             onChange={handleTask2Change}
             // placeholder="Task 2" // FIX
             // type="text"
-            // value="task2"
+            value="task2"
           />
           </label>
           <label>3 
@@ -80,7 +88,7 @@ function ListForm() {
             onChange={handleTask3Change}
             // placeholder="Task 3" // FIX
             // type="text"
-            // value="task3"
+            value="task3"
           />
           </label>
           <label>4 
@@ -88,7 +96,7 @@ function ListForm() {
             onChange={handleTask4Change}
             // placeholder="Task 4" // FIX
             // type="text"
-            // value="task4"  
+            value="task4"  
           />
 </label>
         <input type="submit" value="Submit"/>      </form>
