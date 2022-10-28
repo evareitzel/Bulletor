@@ -50,7 +50,7 @@ function ListForm() {
     <>
       <h1>ListForm</h1>
       <p>New Bullet List: </p>
-      <form>
+      <form onSubmit={handleSubmit}>
           <label>Title 
           <input 
             onChange={handleTitleChange} 
@@ -91,7 +91,7 @@ function ListForm() {
             // value="task4"  
           />
 </label>
-        <input onSubmit={handleSubmit} type="submit" value="Submit"/>      </form>
+        <input type="submit" value="Submit"/>      </form>
     </>
   )
 }
