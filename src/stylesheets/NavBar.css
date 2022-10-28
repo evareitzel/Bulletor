@@ -1,16 +1,37 @@
-/* @use "@material/icon-button" */
 .nav {
-  /* text-decoration: none; */
+  font-size: 13px;
   font-weight: 400;
   font-family: Georgia, Times New Roman, serif;
-  letter-spacing: 2px;
-  padding: 20px;
+  letter-spacing: 3px;
+  /* padding: 20px; */
   /* position: float; */
   text-transform: uppercase;
-  /* display: block; */
   /* color: #fff; */
-  list-style-type: none
+
+  /* list-style: none */
 
 }
 
-/* li a {display: block;} */
+.navList {
+  display: flex;
+  list-style: none;
+  margin-bottom: 30px;
+  margin-left: -40px;
+  /* padding: 0 20px 0 0 */
+  
+  /* overflow: hidden */
+
+}
+
+.item {
+  display: block;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #CDDC39;
+
+}
+
+/* a:link
+a: visited
+a: hover
+a:active */

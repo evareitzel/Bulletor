@@ -5,15 +5,15 @@ function NavBar() {
     <div>
       <nav className="nav">
       <h1>⚡️Bulletary</h1>
-        <ul>
+        <ul className="navList">
           <li>
-            <a href="/" >Bullets</a>
+            <a href="/"  className="item">Bullets</a>
           </li>
           <li>
-            <a href="/add-list" >Add List</a>
+            <a href="/add-list" className="item">Add List</a>
           </li>
           <li>
-            <a href="/resources">Resources</a>
+            <a href="/resources" className="item">Resources</a>
           </li>
         </ul>
         <button>Dark Mode 🌙</button> {/* ☀️ Light Mode */}
