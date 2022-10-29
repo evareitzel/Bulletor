@@ -1,5 +1,19 @@
 /* remove bullets from li's */
+.h3 {
+  color: #E6EE9C;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Georgia, Times New Roman, serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
 
-.key-item {
-  text-decoration: none;
+.keys {
+  list-style: none; /* remove bullets */
+margin-left: -40px;
+}
+
+.link {
+text-decoration: none; /* remove underline */
+color: #CDDC39;
 }

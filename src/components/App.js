@@ -5,8 +5,6 @@ import {
 } from 'react-router-dom'
 import '../stylesheets/App.css'
 
-// import AppBar from '@material-ui/core/AppBar'
-
 import NavBar from './NavBar'
 import ListContainer from './ListContainer'
 import ListForm from './ListForm'

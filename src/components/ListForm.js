@@ -1,8 +1,6 @@
-import { ThemeContext } from '@emotion/react'
 import {useState} from 'react'
+import '../stylesheets/ListForm.css'
 
-  // POST request to the json server
-  // Use a form to make your post request, specifically a controlled form/component.
 
 function ListForm({setLists}) {
   const [title, setTitle] = useState("")
@@ -38,7 +36,7 @@ function ListForm({setLists}) {
 
   function handleSubmit(e){
     e.preventDefault()
-    console.log('Submitted!')
+    window.alert('Submitted!')
     const listData = {
       title: title,
       item1: item,
@@ -55,63 +53,55 @@ function ListForm({setLists}) {
       body: JSON.stringify(listData)
     })
     .then(r => r.json())
-    // .then(data => console.log(data))
     .then(data => setLists(data))
   
   }
 
-  // console.log('Title: ', title)
-  // console.log('Item: ', item)
-  // console.log('Item 2: ', item2)
-  // console.log('Item 3: ', item3)
-  // console.log('Item 4: ', item4)
-
   return (
     <>
-      <h1>ListForm</h1>
-      <p>New Bullet List: </p>
+      <h1>Add New Bullet List</h1>
       <form onSubmit={handleSubmit}>
-          <label>Title 
+          <label className="label">Title 
           <input 
             onChange={handleTitleChange} 
-            // placeholder="Title of your List" // FIX
+            placeholder="Name your List"
             type="text"
             value={title}
+            className="form-input"
           />
           </label>
-          <label>1 
           <input 
             onChange={handleItemChange}
-            // placeholder="Task 1" // FIX
+            placeholder="Task 1"
             type="text"
             value={item}
+            className="form-input"
           />
-          </label>
-          <label>2 
           <input 
             onChange={handleItem2Change}
-            // placeholder="Task 2" // FIX
+            placeholder="Task 2"
             type="text"
-            value={item2}
+            value={item2}            
+            className="form-input"
           />
-          </label>
-          <label>3 
           <input 
             onChange={handleItem3Change}
-            // placeholder="Task 3" // FIX
+            placeholder="Task 3"
             type="text"
             value={item3}
+            className="form-input"
           />
-          </label>
-          <label>4 
           <input 
             onChange={handleItem4Change}
-            // placeholder="Task 4" // FIX
+            placeholder="Task 4"
             type="text"
-            value={item4}  
+            value={item4}
+            className="form-input"  
           />
-</label>
-        <input type="submit" value="Submit"/>      </form>
+        <div className="btn-wrapper">
+        <input type="submit" value="Submit" className="btn"/>
+        </div>
+      </form>
     </>
   )
 }

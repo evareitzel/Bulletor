@@ -2,9 +2,8 @@ import '../stylesheets/NavBar.css'
 
 function NavBar() {
   return (
-    <div>
       <nav className="nav">
-      <h1>⚡️Bulletary</h1>
+      <h1 className="logo">⚡️Bulletor</h1>
         <ul className="navList">
           <li>
             <a href="/"  className="item">Bullets</a>
@@ -16,9 +15,7 @@ function NavBar() {
             <a href="/resources" className="item">Resources</a>
           </li>
         </ul>
-        <button>Dark Mode 🌙</button> {/* ☀️ Light Mode */}
       </nav>
-    </div>
   )
 }
 

@@ -4,15 +4,23 @@ function Resources(){
   return(
     <>
       <h1>Resources</h1>
-      <h3>Bullet Journal Key Symbols</h3>
-      <ul>
-        <li className="key-item">• To Do</li>
-        <li className="key-item">◦ In Progress</li>
-        <li className="key-item">× Completed</li>
-        <li className="key-item">♡ Idea</li>
+      <h3 className="h3">Bullet List Key</h3>
+      <ul className="keys">
+        <li>• To Do</li>
+        <li>◦ In Progress</li>
+        <li>x Completed</li>
+        <li>♡ Idea</li>
       </ul>
-      <a href='https://bulletjournal.com/' target="_blank">Official site</a>
-      <a href="https://bulletplannerideas.com/bullet-journal-keys/?v=322b26af01d5" target="_blank">Bullet Planner Ideas</a>
+
+      <h3 className="h3">Reference Websites</h3>
+      <ul className="links">
+        <li>
+          <a href='https://bulletjournal.com/' target="_blank" className="link">Official site</a>
+        </li>  
+        <li>
+        <a href="https://bulletplannerideas.com/bullet-journal-keys/?v=322b26af01d5" target="_blank" className="link">Bullet Planner Ideas</a>
+        </li>
+      </ul>
     </>
   )
 }

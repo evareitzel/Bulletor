@@ -1,9 +1,6 @@
 .app {
   width: 375px;  
-  /* make full bg */
-  /* background-color: #222; */
   color: #fff;
-  /* font-size: 16px; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: auto;
   padding: 20px 20px 200px 20px;
@@ -11,8 +8,4 @@
 
 .background {
   background-color: #222;
-  /* width: auto; */
-  /* height: auto; */
-  /* min-w?idth: 100%; */
-  /* min-height: 100%; */
 }

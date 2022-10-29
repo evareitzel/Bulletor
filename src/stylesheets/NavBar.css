@@ -1,37 +1,30 @@
+/* parent element */
 .nav {
-  font-size: 13px;
-  font-weight: 400;
   font-family: Georgia, Times New Roman, serif;
   letter-spacing: 3px;
-  /* padding: 20px; */
-  /* position: float; */
   text-transform: uppercase;
-  /* color: #fff; */
-
-  /* list-style: none */
-
 }
 
+.logo {
+  font-size: 20px;
+  margin: auto; 
+  width: 50%; 
+  padding: 20px;
+}
+
+/* ul */
 .navList {
   display: flex;
-  list-style: none;
-  margin-bottom: 30px;
-  margin-left: -40px;
-  /* padding: 0 20px 0 0 */
-  
-  /* overflow: hidden */
-
+  list-style: none; /* remove bullets */
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom:30px; 
+  width: 100%;
 }
 
+/* li */
 .item {
-  display: block;
-  padding-right: 20px;
-  text-decoration: none;
+  text-decoration: none; /* remove underline */
+  padding: 12px;
   color: #CDDC39;
-
 }
-
-/* a:link
-a: visited
-a: hover
-a:active */

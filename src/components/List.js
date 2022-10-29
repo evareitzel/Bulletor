@@ -1,14 +1,17 @@
-function List({listObj}){
-  const {title, items} = listObj
+import '../stylesheets/List.css'
 
-  // console.log(listObj.items)  
-  const renderItems = items.map(el => <li key={el.item}>{el.item}</li>) 
+function List({listObj}){
+  console.log(listObj)
+  const {title, item1, item2, item3, item4} = listObj
 
   return(
     <div>
-      <h3>{title}</h3>
+      <h3 className="title">{title}</h3>
       <ul>
-        {renderItems}
+        <li>{item1}</li>
+        <li>{item2}</li>
+        <li>{item3}</li>
+        <li>{item4}</li>
       </ul>
     </div>
   )

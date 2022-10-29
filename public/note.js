@@ -483,3 +483,55 @@
 "item2": 
 "item3": 
 "item4": 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////
+// From List.js
+
+  // console.log(items.isTrue())
+  // console.log(listObj.items)  
+
+  // const renderItems = items.map(item => <li key={item}>{item}</li>) 
+
+  
+  // const renderItems = listObj.map(item => {
+    // console.log(item) // FIX
+// return <li key={item}>{item}</li> 
+// return <p>{item}</p> 
+
+// } )
+
+      // {/* <h3>Bullet List {listObj.id}</h3> */}
+      //   {/* {renderItems} */}
+
+// From NavBar
+{/* <button>Dark Mode 🌙</button> ☀️ Light Mode */}
+
+// Stretch goal: show list titles, onClick view details (get items, setState)
+
+// import AppBar from '@material-ui/core/AppBar'
+
+// From App.css
+    /* make full bg */
+    /* background-color: #222; */
+    /* font-size: 16px; */
+
+    /* width: auto; */
+    /* height: auto; */
+    /* min-w?idth: 100%; */
+    /* min-height: 100%; */
+
+    // import { ThemeContext } from '@emotion/react'
+
+
+    /* a:link
+a: visited
+a: hover
+a:active */
+
+// from ListForm (text fields)
+    /* border: 2px solid #C0CA33; */
+
+
+    

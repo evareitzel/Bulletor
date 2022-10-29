@@ -14,7 +14,7 @@
       "item1": "apples, bananas",
       "item2": "milk",
       "item3": "cake",
-      "item4": ""
+      "item4": "peanut butter"
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "item1": "fitness regime",
       "item2": "practice meditation",
       "item3": "sleep schedule",
-      "item4": ""
+      "item4": "green juice"
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "item1": "Lean Cabin",
       "item2": "Hacienda",
       "item3": "Cube",
-      "item4": "",
+      "item4": "Prairie",
       "id": 7
     }
   ]

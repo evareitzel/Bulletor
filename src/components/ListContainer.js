@@ -1,5 +1,4 @@
 import List from './List'
-// Stretch goal: show list titles, onClick view details (get items, setState)
 
 function ListContainer({lists}){
 
