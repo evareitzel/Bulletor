@@ -1,10 +1,6 @@
 # Bulletor App
   ### Created by Eva Reitzel
   ### Phase 2 Project for Flatiron School
-image.png
-
-image.png
-
 
   ## How Bulletor was built
     - Language: React
@@ -14,8 +10,17 @@ image.png
 ## About Bulletor
   Bulletor is a list-making application based on Bullet Journaling. Users can view their list collection, add new lists, and explore resources and ideas for Bullet Journaling.
 
+## Installation 
+
+Use the package manager [ npm ] to install Bulletor.
+
+```bash
+npm install
+npm run server
+npm start
+```
+
 ## View JSON Database
-  $ npm run server
   http://localhost:3001/lists
 
   // added to package.json:
