@@ -2,13 +2,21 @@
   ### Created by Eva Reitzel
   ### Phase 2 Project for Flatiron School
 
-  ## How Bulletor was built
-    - Language: React
-    - React Router: Version 6
-    - Format: Single Page Application (SPA) 
+
 
 ## About Bulletor
   Bulletor is a list-making application based on Bullet Journaling. Users can view their list collection, add new lists, and explore resources and ideas for Bullet Journaling.
+
+![Bullets screen](./source/images/bullets.png?raw=true "/bullets")
+
+![Add List screen](./source/images/add_list.png?raw=true "/add-list")
+
+![Resources screen](./source/images/resources.png?raw=true "/resources")
+
+## How Bulletor was built
+  - Language: React
+  - React Router: Version 6
+  - Format: Single Page Application (SPA) 
 
 ## Installation 
 
