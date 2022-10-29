@@ -1,6 +1,10 @@
 # Bulletor App
-  Created by Eva Reitzel
-  Phase 2 Project for Flatiron School
+  ### Created by Eva Reitzel
+  ### Phase 2 Project for Flatiron School
+image.png
+
+image.png
+
 
   ## How Bulletor was built
     - Language: React
