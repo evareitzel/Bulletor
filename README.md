@@ -7,11 +7,11 @@
 ## About Bulletor
   Bulletor is a list-making application based on Bullet Journaling. Users can view their list collection, add new lists, and explore resources and ideas for Bullet Journaling.
 
-![Bullets screen](./source/images/bullets.png?raw=true "/bullets")
+![Bullets screen](./source/images/bullets.png "/bullets")
 
-![Add List screen](./source/images/add_list.png?raw=true "/add-list")
+![Add List screen](./source/images/add_list.png "/add-list")
 
-![Resources screen](./source/images/resources.png?raw=true "/resources")
+![Resources screen](./source/images/resources.png "/resources")
 
 ## How Bulletor was built
   - Language: React
