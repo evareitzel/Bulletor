@@ -7,6 +7,9 @@
 ## About Bulletor
   Bulletor is a list-making application based on Bullet Journaling. Users can view their list collection, add new lists, and explore resources and ideas for Bullet Journaling.
 
+## Demo Video
+https://vimeo.com/765294099
+
 ![Bullets screen](/src/images/bullets.png "/bullets")
 
 ![Add List screen](/src/images/add_list.png "/add-list")
