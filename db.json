@@ -3,86 +3,42 @@
     {
       "id": 1,
       "title": "Learning",
-      "items": [
-        {
-          "item": "React UI"
-        },
-        {
-          "item": "FlatIron Bootcamp"
-        },
-        {
-          "item": "LearnEnough Rails Tutorial"
-        },
-        {
-          "item": "Digital Ocean"
-        }
-      ]
+      "item1": "React UI",
+      "item2": "FlatIron Bootcamp",
+      "item3": "LearnEnough Rails Tutorial",
+      "item4": "Digital Ocean"
     },
     {
       "id": 2,
       "title": "Grocery List",
-      "items": [
-        {
-          "item": "apples, bananas"
-        },
-        {
-          "item": "milk"
-        },
-        {
-          "item": "cake"
-        }
-      ]
+      "item1": "apples, bananas",
+      "item2": "milk",
+      "item3": "cake",
+      "item4": ""
     },
     {
       "id": 3,
       "title": "Reading List",
-      "items": [
-        {
-          "item": "Eloquent Ruby, Content Design"
-        },
-        {
-          "item": "Eloquent JavaScript"
-        },
-        {
-          "item": "Web Technology - Theory and Practice"
-        },
-        {
-          "item": "Book Club!"
-        }
-      ]
+      "item1": "Eloquent Ruby",
+      "item2": "Content Design",
+      "item3": "Eloquent JavaScript",
+      "item4": "Web Technology - Theory and Practice"
     },
     {
       "id": 4,
       "title": "Wellness",
-      "items": [
-        {
-          "item": "fitness regime"
-        },
-        {
-          "item": "practice meditation"
-        },
-        {
-          "item": "sleep schedule"
-        }
-      ]
+      "item1": "fitness regime",
+      "item2": "practice meditation",
+      "item3": "sleep schedule",
+      "item4": ""
     },
     {
       "id": 5,
       "title": "Chores",
-      "items": [
-        {
-          "item": "tidy kitchen"
-        },
-        {
-          "item": "laundry"
-        },
-        {
-          "item": "sweep"
-        },
-        {
-          "item": "sort mail"
-        }
-      ]
+      "item1": "tidy kitchen",
+      "item2": "laundry",
+      "item3": "sweep",
+      "item4": "sort mail"
     },
     {
       "id": 6,
