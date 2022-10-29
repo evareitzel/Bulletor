@@ -87,20 +87,18 @@
     {
       "id": 6,
       "title": "Finances",
-      "items": [
-        {
-          "item": "electric - enroll in autoPay"
-        },
-        {
-          "item": "pay car tax"
-        },
-        {
-          "item": "invest in stock market"
-        },
-        {
-          "item": "child care"
-        }
-      ]
+      "item1": "electric - enroll in autoPay",
+      "item2": "pay car tax",
+      "item3": "invest in stock market",
+      "item4": "child care"
+    },
+    {
+      "title": "Builds",
+      "item1": "Lean Cabin",
+      "item2": "Hacienda",
+      "item3": "Cube",
+      "item4": "",
+      "id": 7
     }
   ]
 }

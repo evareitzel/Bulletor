@@ -34,7 +34,7 @@ function App() {
           />
           <Route 
             path='add-list' 
-            element={<ListForm/>}
+            element={<ListForm setLists={setLists}/>}
           />
           <Route 
             path='resources' 
