@@ -1,6 +1,6 @@
 import '../stylesheets/NavBar.css'
 
-function NavBar() {
+function NavBar({onDarkModeClick, isDarkMode}) {
   return (
       <nav className="nav">
       <h1 className="logo">⚡️Bulletor</h1>
@@ -15,6 +15,8 @@ function NavBar() {
             <a href="/resources" className="item">Resources</a>
           </li>
         </ul>
+        <button onClick={onDarkModeClick}>{isDarkMode? "🌙 Dark Mode" : "☀️ Light Mode "}</button>
+
       </nav>
   )
 }

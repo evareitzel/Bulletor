@@ -17,7 +17,7 @@
   display: flex;
   list-style: none; /* remove bullets */
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom:30px; 
   width: 100%;
 }
@@ -26,5 +26,5 @@
 .item {
   text-decoration: none; /* remove underline */
   padding: 12px;
-  color: #CDDC39;
+  color: #9E9D24;
 }

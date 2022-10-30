@@ -12,6 +12,7 @@ import Resources from "./Resources"
 
 function App() {
   const [lists, setLists] = useState([])
+  const [isDarkMode, setIsDarkMode] = useState(true)
 
   useEffect(()=> {
     fetch('http://localhost:3001/lists')
@@ -21,26 +22,28 @@ function App() {
     })
   }, [])
 
+  function handleDarkModeClick(){
+    setIsDarkMode(isDarkMode => !isDarkMode)
+  }
+  console.log(isDarkMode)
   return (
-    <div className="background">
-      <div className="app">
-        <NavBar />
-        <Routes>
-          <Route 
-            path='/' 
-            element={<ListContainer lists={lists}/>} 
-          />
-          <Route 
-            path='add-list' 
-            element={<ListForm setLists={setLists}/>}
-          />
-          <Route 
-            path='resources' 
-            element={<Resources/>}
-          />
-        </Routes>
-      </div> 
-    </div>
+    <div className={"App "+ (isDarkMode ? "dark" : "light")}>
+      <NavBar onDarkModeClick={handleDarkModeClick} isDarkMode={isDarkMode}/>
+      <Routes>
+        <Route 
+          path='/' 
+          element={<ListContainer lists={lists}/>} 
+        />
+        <Route 
+          path='add-list' 
+          element={<ListForm setLists={setLists}/>}
+        />
+        <Route 
+          path='resources' 
+          element={<Resources/>}
+        />
+      </Routes>
+    </div> 
   );
 }
 

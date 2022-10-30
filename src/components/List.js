@@ -1,7 +1,7 @@
 import '../stylesheets/List.css'
 
 function List({listObj}){
-  console.log(listObj)
+  // console.log(listObj)
   const {title, item1, item2, item3, item4} = listObj
 
   return(
