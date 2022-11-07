@@ -5,6 +5,7 @@ function Resources(){
     <>
       <h1>Resources</h1>
       <h3 className="h3">Bullet List Key</h3>
+      <p><i>Ideas for rapid logging</i></p>
       <ul className="keys">
         <li>• To Do</li>
         <li>◦ In Progress</li>

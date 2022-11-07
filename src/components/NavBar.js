@@ -1,4 +1,5 @@
 import '../stylesheets/NavBar.css'
+import {Link} from 'react-router-dom'
 
 function NavBar({onDarkModeClick, isDarkMode}) {
   return (
@@ -6,16 +7,16 @@ function NavBar({onDarkModeClick, isDarkMode}) {
       <h1 className="logo">⚡️Bulletor</h1>
         <ul className="navList">
           <li>
-            <a href="/"  className="item">Bullets</a>
+            <Link to="/"  className="item">Bullets</Link>
           </li>
           <li>
-            <a href="/add-list" className="item">Add List</a>
+            <Link to="/add-list" className="item">Add List</Link>
           </li>
           <li>
-            <a href="/resources" className="item">Resources</a>
+            <Link to="/resources" className="item">Resources</Link>
           </li>
         </ul>
-        <button onClick={onDarkModeClick}>{isDarkMode? "🌙 Dark Mode" : "☀️ Light Mode "}</button>
+        <button onClick={onDarkModeClick} className="darkModeBtn">{isDarkMode? "🌙 Dark Mode" : "☀️ Light Mode "}</button>
 
       </nav>
   )

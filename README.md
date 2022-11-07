@@ -82,9 +82,8 @@ npm start
 
 
   Color Palette
-    #C0CA33
-    #E6EE9C
-    #CDDC39
+    #9E9D24
+    #827717
 
     Source:
     Lime from Material Design
