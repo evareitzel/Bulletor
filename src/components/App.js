@@ -9,6 +9,7 @@ import NavBar from './NavBar'
 import ListContainer from './ListContainer'
 import ListForm from './ListForm'
 import Resources from "./Resources"
+// import ClickMe from "./ClickMe"
 
 function App() {
   const [lists, setLists] = useState([])
@@ -17,18 +18,16 @@ function App() {
   useEffect(()=> {
     fetch('http://localhost:3001/lists')
     .then(r => r.json())
-    .then(data  => {
-      setLists(data)
-    })
+    .then(data  => setLists(data))
   }, [])
 
   function handleDarkModeClick(){
     setIsDarkMode(isDarkMode => !isDarkMode)
   }
-  console.log(isDarkMode)
   return (
     <div className={"App "+ (isDarkMode ? "dark" : "light")}>
       <NavBar onDarkModeClick={handleDarkModeClick} isDarkMode={isDarkMode}/>
+      {/* <ClickMe /> */}
       <Routes>
         <Route 
           path='/' 
@@ -36,7 +35,7 @@ function App() {
         />
         <Route 
           path='add-list' 
-          element={<ListForm setLists={setLists}/>}
+          element={<ListForm setLists={setLists} lists={lists}/>}
         />
         <Route 
           path='resources' 

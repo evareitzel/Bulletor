@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function NavBar({onDarkModeClick, isDarkMode}) {
   return (
       <nav className="nav">
-      <h1 className="logo">⚡️Bulletor</h1>
+        <h1 className="logo">⚡️Bulletor</h1>
         <ul className="navList">
           <li>
             <Link to="/"  className="item">Bullets</Link>
@@ -17,7 +17,6 @@ function NavBar({onDarkModeClick, isDarkMode}) {
           </li>
         </ul>
         <button onClick={onDarkModeClick} className="darkModeBtn">{isDarkMode? "🌙 Dark Mode" : "☀️ Light Mode "}</button>
-
       </nav>
   )
 }
