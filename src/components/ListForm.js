@@ -3,7 +3,7 @@ import '../stylesheets/ListForm.css'
 
 function ListForm({setLists, lists}) {
   const [title, setTitle] = useState("")
-  const [item, setItem] = useState("")
+  const [item1, setItem1] = useState("")
   const [item2, setItem2] = useState("")
   const [item3, setItem3] = useState("")
   const [item4, setItem4] = useState("")
@@ -13,7 +13,7 @@ function ListForm({setLists, lists}) {
     window.alert('Submitted!')
     const listData = {
       title: title,
-      item1: item,
+      item1: item1,
       item2: item2,
       item3: item3,
       item4: item4
@@ -43,10 +43,10 @@ function ListForm({setLists, lists}) {
           />
           </label>
           <input 
-            onChange={e => setItem(e.target.value)}
+            onChange={e => setItem1(e.target.value)}
             placeholder="Task 1"
             type="text"
-            value={item}
+            value={item1}
             className="form-input"
           />
           <input 

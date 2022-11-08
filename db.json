@@ -73,36 +73,12 @@
       "id": 9
     },
     {
-      "title": "Review",
-      "item1": "45min",
-      "item2": "Flatiron",
-      "item3": "phase-2",
-      "item4": "BUJO app",
-      "id": 10
-    },
-    {
       "title": "Names",
       "item1": "Eva",
       "item2": "Enoch",
       "item3": "",
       "item4": "",
       "id": 11
-    },
-    {
-      "title": "Days",
-      "item1": "Monday",
-      "item2": "December 25",
-      "item3": "Holidays",
-      "item4": "",
-      "id": 12
-    },
-    {
-      "title": "Plants",
-      "item1": "Asparagus Fern",
-      "item2": "Azalea",
-      "item3": "Staghorn Fern",
-      "item4": "Air Plant",
-      "id": 13
     }
   ]
 }
