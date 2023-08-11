@@ -1,6 +1,7 @@
 # Bulletor
   ### Created by Eva Reitzel
   ### A React Application
+  Phase 2 Project for Flatiron School
 
 
 
