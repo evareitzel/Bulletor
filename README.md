@@ -1,4 +1,4 @@
-# Bulletor App
+# Bulletor
   ### Created by Eva Reitzel
   ### Phase 2 Project for Flatiron School
 
